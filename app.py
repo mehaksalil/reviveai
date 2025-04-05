@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load the model
-model = tf.keras.models.load_model("c:\\Users\\baber\\Desktop\\VIT\\Revive AI\\GitHub_Repo\\ReviveAI_Deployment\\SharpeningModel_512_30Epochs.keras", compile=False)
+model = tf.keras.models.load_model("SharpeningModel_512_30Epochs.keras", compile=False)
 
 # Preprocessing
 IMG_SIZE = (512, 512)
